@@ -29,8 +29,6 @@ This software is licensed under the [GNU GPL version 3.0](http://www.gnu.org/lic
 This code doesn't save the results to a file on the server.
 If you are looking to save a file to the server, try Google search.
 
-More information can be found on the [Project Code Page at Studio-Owens.com](http://www.studio-owens.com/code/email-mysql-query-results-as-a-csv-file-attachment.htm)
-
 ## Instructions on how to use the class, and example files.
 
 ### Step 1: View then Edit the Example File
@@ -123,4 +121,4 @@ If you have FTP access, put this into a file called mailer.php (or whatever.php 
 ?>
 ```
 
-Best of luck to you.
+Best of luck to you. Ask questions in the comments on this [project's code page at Studio-Owens.com](http://www.studio-owens.com/code/email-mysql-query-results-as-a-csv-file-attachment.htm)
