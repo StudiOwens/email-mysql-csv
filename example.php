@@ -7,7 +7,7 @@
 # -----
 # Load The Class File
 # first we have to load the class file
-require('class.email-query-results-as-csv-file.php');
+require 'class.email-query-results-as-csv-file.php';
 
 # -----
 # Create A New Object
