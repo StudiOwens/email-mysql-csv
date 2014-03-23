@@ -5,7 +5,7 @@
 */
 
 # include the class and create a new object of the class
-require('class.email-query-results-as-csv-file.php');
+require 'class.email-query-results-as-csv-file.php';
 $emailCSV = new EmailQueryResultsAsCsv('localhost','database_name','username','password');
 
 # -----
