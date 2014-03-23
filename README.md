@@ -29,35 +29,6 @@ This software is licensed under the [GNU GPL version 3.0](http://www.gnu.org/lic
 This code doesn't save the results to a file on the server.
 If you are looking to save a file to the server, try Google search.
 
-## Instructions on how to use the class, and example files.
-
-### Step 1: View then Edit the Example File
-
-The source code is well documented. Start by opening the driver file "example.php" in your code editor. I like Notepad++ for windows, and gEdit (pimped) for Linux.
-
-  * Each of the lines of code is very well commented and documented in this file.
-  * Follow the directions outlined in comments of the file.
-  * Some items are optional, and they are noted as such.
-
-### Step 2: Upload the Class File and Driver File to Your Web Sever
-
-After you fill in your specific details, upload the two files to your web server:
-
-  * class.email-query-results-as-csv-file.php
-  * example.php
-
-### Setp 3: Run the Driver File from a Web Browser
-
-Run the file "example.php" from a web browser.
-
-### debugMode(True)
-
-If you are using the object in debugMode(True) then it will output messages of success or error at each step. Error messages are always output regardless if the debugMode is active or not.
-
-### Attaching Multiple Files to One Email
-
-To attach multiple files to a single email follow the code in the file "example-multi.php".
-
 # Basic Trouble Shooting
 
 ## Problems Sending The Email?
@@ -121,4 +92,34 @@ If you have FTP access, put this into a file called mailer.php (or whatever.php 
 ?>
 ```
 
-Best of luck to you. Ask questions in the comments on this [project's code page at Studio-Owens.com](http://www.studio-owens.com/code/email-mysql-query-results-as-a-csv-file-attachment.htm)
+# New beginner instructions on how to use the class, and example files.
+
+## Step 1: View then Edit the Example File
+
+The source code is well documented. Start by opening the driver file "example.php" in your code editor. You could try Notepad++ for windows, and gEdit (pimped) for Linux.
+
+* Each of the lines of code is very well commented and documented in this file.
+* Follow the directions outlined in comments of the file.
+* Some items are optional, and they are noted as such.
+
+## Step 2: Upload the Class File and Driver File to Your Web Sever
+
+After you fill in your specific details, upload the two files to your web server:
+
+* class.email-query-results-as-csv-file.php
+* example.php
+
+## Setp 3: Run the Driver File from a Web Browser
+
+Run the file "example.php" from a web browser.
+
+## debugMode(True)
+
+If you are using the object in debugMode(True) then it will output messages of success or error at each step. Error messages are always output regardless if the debugMode is active or not.
+
+## Attaching Multiple Files to One Email
+
+To attach multiple files to a single email follow the code in the file "example-multi.php".
+
+# Best of luck to you.
+Ask questions in the comments on this [project's code page at Studio-Owens.com](http://www.studio-owens.com/code/email-mysql-query-results-as-a-csv-file-attachment.htm)
