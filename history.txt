@@ -1,0 +1,48 @@
+Email MySQL Query Results as a CSV File Attachment
+file: class.email-query-results-as-csv-file.php
+
+Author:  Stephen R. Owens (www.Studio-Owens.com)
+
+Sends an email with a CSV file attachment that contains the results of a MySQL query.
+Copyright (C) 2009-2014 Stephen R. Owens
+
+
+HISTORY:
+
+2014-MAR-22 : v2.2
+* Moved repo from Google Code to GitHub
+
+2014-FEB-21 : v2.2
+* Removed support for the deprecated MySQL extension
++ added MySQLi support
+
+2014-FEB-20 : v2.1.3
+* Switched repo from SVN to Git - no code changes
+
+2013-DEC-11 : v2.1.3
+* Changed the character set from iso-8859-1 to UTF-8 for better international character support within the body of the generated email
+
+2012-FEB-21 : v2.1.2
+* bug fix: num of rows returned by the query must be greater than zero; previous check caused no file to be built in v2.1.1
+
+2012-FEB-12 : v2.1.1
++ added behaviour to only attach file when at least one row has been returned from the database
++ added if no files were attached do not send email
+
+2011-MAR-07 : v2.1
++ added the ability to attach multiple files
++ new file "example-multi.php" shows how to use the class to send multiple file attachments
++ moved setting the CSV file name to the method "setCSVname()"
+* the method "setCSVinfo()" is now used to only set the reusable parts of the CSV file, and no longer sets the file name
+* changed "example.php" and "example-min.php" to show the new use of setCSVname()
+
+2011-MAR-06 : v2.0.1
+- Removed the extra comma at the end of each row
+
+2011-MAR-02 : v2.0
+* Changed the code to a class file, because (a) it's better to use OOP and (b) encourage people to leave the copyright in place as is required by the GNU GPL license.
++ new file: "example.php" to show how the class is used with comments explaining the code
++ new file "example-min.php" to show the minimum amount of code needed to use this class
+
+2009-NOV-11 : v1.0
+* Initial Public Release
