@@ -56,7 +56,7 @@ ini_set("sendmail_from","yourname@domain.com");
 The PHP mail() function returns true when the outgoing mail server accepts the message for delivery. This doesn't mean the email has been delivered correctly. 
 
 ### Example Successful Script Output
-```php
+```
 Step 1: Connected to MySQL server successfully. Step 2: MySQL database successfully 
 selected. Step 3 (repeats for each attachment): MySQL query ran successfully. Step 4 
 (repeats for each attachment): CSV file built. Step 5: Email sent with attachment. 
