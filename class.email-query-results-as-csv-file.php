@@ -146,8 +146,8 @@ class EmailQueryResultsAsCsv {
     -------------------------------------- 
         SEND EMAIL WITH ATTACHMENT
         Below you will notice I'm using complex variable parsing {curly braces surrounding variable}
-          For more information see: "PHP: Complex Variables in Strings" at Tinsology.net
-          http://tinsology.net/2009/06/php-complex-variables-in-strings/
+          For more information see: PHP docs for String Variable Parsing using Complex (curly) syntax
+          http://www.php.net/manual/en/language.types.string.php#language.types.string.parsing.complex
     */
 
     # start setting up the email header
